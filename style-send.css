@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-size: 35px;
+}
+.all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    text-align: center;
+    position: relative;
+    top:250px;
+}
+img{
+    width: 200px;
+}
+@media (max-width:376px){
+    img{
+        width: 100px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    p{
+        font-size: 20px;
+    }
+}
